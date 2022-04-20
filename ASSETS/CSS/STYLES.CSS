@@ -1,0 +1,89 @@
+body{
+  background-color: white;
+}
+
+.bg-verde{
+  background-color: #28A745;
+}
+
+.centrado{
+  text-align: center;
+}
+   
+.navbar {
+  flex-wrap: inherit;
+  font-weight: 300;
+ }
+
+/* ESTILO DE TEXTO H5*/ 
+h5 {
+  color: #212529;
+  font-weight: 300;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif;
+}
+/* ESTILO DE TEXTO DE LOS PARRAFOS*/   
+p {
+  color: #707070;
+  font-weight: 300;
+  margin-bottom: 0px;
+  font-size: 13px;
+  font-family: "Roboto", sans-serif;
+}
+
+/* ESTILO DE CAJA*/    
+.card-body {
+  padding: 16px;
+  text-decoration: none;
+}
+/* ESTILO DE CAJA CON TEXTO NOMBRE DE LA TIENDA*/      
+.card-body a.card-link:first-child {
+  color: #707070;
+  font-weight: 300;
+  font-size: 16px;
+  text-decoration: none;
+}
+/* ESTILO DE CAJA CON TEXTO NOMBRE DE LA UBICACION*/ 
+p.card-text {
+  font-size: 16px;
+  font-weight: 300;
+}
+/* COLOR DE LA FUENTE DEL PRECIO */
+.card-body a.card-link:nth-child(2) {
+  color: #28A745;
+  font-weight: 500;
+  font-size: 20px;
+  margin-right: 18px;
+  margin-left: 11px;
+  text-decoration: none;
+}
+/* COLOR DE LA CAJA DEL FORMULARIO */
+.color-fondo {
+  background-color: #28A745;
+}
+/* ESTILO DEL FORMULARIO */
+.form-control {
+  font-weight: 300;
+  margin-bottom: 14px;
+}
+/* ESTILO DEL BOTON ENVIAR */
+.btn {
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-bottom: 5px;
+}
+/* CAJA DEL FOOTER */
+.card {
+  margin-bottom: 2.5rem;
+}
+footer {
+  color: #707070;
+    /* background-color: var(--white); */
+  background-color: #ffffff;
+}
+/* TEXTO DEL FOOTER BAJO EL LOGO*/
+p.fot {
+  font-size: 16px;
+  padding-bottom: 22px;
+}
+  
